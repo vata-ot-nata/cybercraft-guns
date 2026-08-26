@@ -1,0 +1,5 @@
+name: Cybergun
+version: '${project.version}'
+main: cyberprank.cybergun.Cybergun
+api-version: 1.18
+depend: [ QualityArmory ]
