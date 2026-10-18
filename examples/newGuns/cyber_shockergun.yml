@@ -1,0 +1,32 @@
+name: ShockerGun
+id: 1800
+displayname: '&e&lShocker'
+weapontype: PISTOL
+weaponsounds: bulletmedium
+enableIronSights: false
+ammotype: shockercell
+damage: 4.0
+maxbullets: 1
+price: 3500
+material: DIAMOND_HORSE_ARMOR
+bullets-per-shot: 1
+maxBulletDistance: 35
+firerate: 4
+isAutomatic: false
+recoil: 0
+KilledByMessage: '%player% was electrocuted by %killer% using a %name%'
+invalid: false
+durability: 800
+maxItemStack: 1
+CustomProjectiles:
+  projectileType: Shocker
+addMuzzleSmoke: false
+headshotMultiplier: 1.5
+weaponsounds_volume: 3
+firing_knockback: 0.1
+craftingRequirements:
+- IRON_INGOT,0,10
+- REDSTONE,0,15
+particles:
+  bullet_particle: CRIT_MAGIC
+  bullet_particleData: 0

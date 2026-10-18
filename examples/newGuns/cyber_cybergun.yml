@@ -1,0 +1,30 @@
+name: CyberGun
+id: 1801
+displayname: '&b&lCyber Rifle'
+weapontype: RIFLE
+weaponsounds: bulletmedium
+enableIronSights: false
+ammotype: cyberammo
+damage: 8.0
+maxbullets: 20
+price: 5000
+material: GOLDEN_HORSE_ARMOR
+bullets-per-shot: 1
+maxBulletDistance: 60
+firerate: 3
+isAutomatic: true
+recoil: 3.5
+KilledByMessage: '%player% was vaporized by %killer% using a %name%'
+invalid: false
+durability: 1000
+maxItemStack: 1
+ChargingHandler: CyberCharger
+CustomProjectiles:
+  projectileType: Cyber
+addMuzzleSmoke: false
+headshotMultiplier: 2.0
+weaponsounds_volume: 4
+firing_knockback: 0.2
+craftingRequirements:
+- IRON_INGOT,0,20
+- REDSTONE,0,10
