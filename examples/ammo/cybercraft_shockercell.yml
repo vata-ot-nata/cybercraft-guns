@@ -1,0 +1,8 @@
+invalid: false
+name: shockercell
+displayname: '&e&lHigh-Voltage Cell'
+material: GLOWSTONE_DUST
+price: 15
+maxItemStack: 32
+damage: 1
+id: 1803

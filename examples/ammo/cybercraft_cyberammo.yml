@@ -1,0 +1,8 @@
+invalid: false
+name: cyberammo
+displayname: '&b&lCyber Battery Cell'
+material: SUGAR
+price: 10
+maxItemStack: 32
+damage: 1
+id: 1804
